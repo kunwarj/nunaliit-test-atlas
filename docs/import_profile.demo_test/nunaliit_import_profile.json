@@ -1,0 +1,17 @@
+{
+    "nunaliit_type": "import_profile",
+    "id": "demo_test",
+    "label": {
+        "nunaliit_type": "localized",
+        "en": "Demo Test"
+    },
+    "type": "geojson",
+    "options": {
+        "idAttribute": "id"
+    },
+    "operations": [
+        "copyAllAndFixNames(demo_doc)"
+    ],
+    "schemaName": "demo_doc",
+    "layerName": "demo_tests"
+}

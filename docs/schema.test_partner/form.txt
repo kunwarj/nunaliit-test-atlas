@@ -1,0 +1,92 @@
+<div class="n2_documentForm">
+	<div class="n2_layoutFloat">
+		<div class="test_partner">
+			<div class="title">
+				<div class="label n2s_localize">Partner</div>
+				<div class="end"></div>
+			</div>
+			{{#test_partner}}
+				<div class="test_partner_id">
+					<div class="label n2s_localize">ID</div>
+					<div class="value">{{#:field}}id,placeholder=ID{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_name">
+					<div class="label n2s_localize">Name</div>
+					<div class="value">{{#:field}}name,placeholder=Name{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_region">
+					<div class="label n2s_localize">Region</div>
+					<div class="value">{{#:field}}region,placeholder=Region{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_street_address">
+					<div class="label n2s_localize">Street Address</div>
+					<div class="value">{{#:field}}street_address,placeholder=Street%20Address{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_city">
+					<div class="label n2s_localize">City</div>
+					<div class="value">{{#:field}}city,placeholder=City{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_province">
+					<div class="label n2s_localize">Province</div>
+					<div class="value">{{#:field}}province,placeholder=Province{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_postal_code">
+					<div class="label n2s_localize">Post Code</div>
+					<div class="value">{{#:field}}postal_code,placeholder=Post%20Code{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_sector">
+					<div class="label n2s_localize">Sector</div>
+					<div class="value">{{#:field}}sector,placeholder=Sector{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_country">
+					<div class="label n2s_localize">Country</div>
+					<div class="value">{{#:field}}country,placeholder=Country{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_weblink">
+					<div class="label n2s_localize">Weblink</div>
+					<div class="value">{{#:field}}weblink,placeholder=Weblink{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			{{#test_partner}}
+				<div class="test_partner_notes">
+					<div class="label n2s_localize">Notes</div>
+					<div class="value">{{#:field}}notes,placeholder=Notes{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/test_partner}}
+			<div class="nunaliit_geom">
+				<div class="label n2s_localize">Geometry</div>
+				<div class="value">{{#:field}}nunaliit_geom,geometry{{/:field}}</div>
+				<div class="end"></div>
+			</div>
+		</div>
+	</div>
+</div>

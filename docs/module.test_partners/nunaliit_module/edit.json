@@ -1,0 +1,13 @@
+{
+	"defaultSchemaName": "test_partner",
+	"newDocumentSchemaNames": [
+		"test_partner"
+	],
+	"enableAddFile": false,
+	"maxAudioRecordingLengthSeconds": 300,
+	"maxVideoRecordingLengthSeconds": 300,
+	"recordVideoSize": {
+		"width": 640,
+		"height": 480
+	}
+}

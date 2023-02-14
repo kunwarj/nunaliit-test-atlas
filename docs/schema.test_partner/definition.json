@@ -1,0 +1,82 @@
+{
+	"id": "partner",
+	"group": "test",
+	"label": "Partner",
+	"attributes": [
+		{
+			"type": "title",
+			"label": "Partner"
+		},
+		{
+			"type": "string",
+			"label": "ID",
+			"id": "id",
+			"placeholder": "ID"
+		},
+		{
+			"type": "string",
+			"label": "Name",
+			"id": "name",
+			"includedInBrief": true,
+			"placeholder": "Name"
+		},
+		{
+			"type": "string",
+			"label": "Region",
+			"id": "region",
+			"placeholder": "Region"
+		},
+		{
+			"type": "string",
+			"label": "Street Address",
+			"id": "street_address",
+			"placeholder": "Street Address"
+		},
+		{
+			"type": "string",
+			"label": "City",
+			"id": "city",
+			"placeholder": "City"
+		},
+		{
+			"type": "string",
+			"label": "Province",
+			"id": "province",
+			"placeholder": "Province"
+		},
+		{
+			"type": "string",
+			"label": "Post Code",
+			"id": "postal_code",
+			"placeholder": "Post Code"
+		},
+		{
+			"type": "string",
+			"label": "Sector",
+			"id": "sector",
+			"placeholder": "Sector"
+		},
+		{
+			"type": "string",
+			"label": "Country",
+			"id": "country",
+			"placeholder": "Country"
+		},
+		{
+			"type": "string",
+			"label": "Weblink",
+			"id": "weblink",
+			"placeholder": "Weblink"
+		},
+		{
+			"type": "string",
+			"label": "Notes",
+			"id": "notes",
+			"placeholder": "Notes"
+		},
+		{
+			"type": "geometry",
+			"label": "Geometry"
+		}
+	]
+}

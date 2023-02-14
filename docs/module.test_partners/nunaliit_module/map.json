@@ -1,0 +1,78 @@
+{
+	"coordinates": {
+		"initialBounds": [
+			-75.72,
+			45.41,
+			-75.67,
+			45.43
+		],
+		"autoInitialBounds": {
+			"type": "mapAutoInitialBoundsCouchDbLayers",
+			"allLayers": true
+		}
+	},
+	"backgrounds": [
+		{
+			"name": "OSM",
+			"type": "osm",
+			"options": {}
+		}
+	],
+	"overlays": [
+		{
+			"id": "test_partners",
+			"name": {
+				"nunaliit_type": "localized",
+				"en": "Partners"
+			},
+			"type": "couchdb",
+			"options": {
+				"layerName": "test_partners"
+			},
+			"featurePopupDelayMs": 0,
+			"useHoverSound": true,
+			"clustering": {
+				"distance": 20,
+				"threshold": 1,
+				"disableDynamicClustering": false,
+				"clusterPointsOnly": false,
+				"minimumLinePixelSize": 20,
+				"minimumPolygonPixelSize": 20
+			}
+		},
+		{
+			"id": "test_demo",
+			"name": {
+				"nunaliit_type": "localized",
+				"en": "DEMO TEST"
+			},
+			"type": "couchdb",
+			"options": {
+				"layerName": "demo_tests"
+			},
+			"featurePopupDelayMs": 0,
+			"useHoverSound": true,
+			"clustering": {
+				"distance": 20,
+				"threshold": 1,
+				"disableDynamicClustering": false,
+				"clusterPointsOnly": false,
+				"minimumLinePixelSize": 20,
+				"minimumPolygonPixelSize": 20
+			}
+		}
+	],
+	"addPointsOnly": false,
+	"showSRSAttribution": true,
+	"toggleClick": true,
+	"canvasName": "TheMap",
+	"styles": [
+		{
+			"condition": "onLayer('bekh_partners')",
+			"label": "Partners",
+			"normal": {
+				"fill": "#ffff33"
+			}
+		}
+	]
+}

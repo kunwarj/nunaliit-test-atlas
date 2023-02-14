@@ -10,15 +10,18 @@
       {
         "title": {
           "nunaliit_type": "localized",
-          "en": "Demo Module",
-          "fr": "Module de Demo"
+          "en": "BEKH Partners",
+          "fr": "Partenaires BEKH"
         },
-        "module": "module.demo",
-        "items": [
-          {
-            "module": "module.demo"
-          }
-        ]
+        "module": "module.test_partners"
+      },
+      {
+        "title": {
+          "nunaliit_type": "localized",
+          "en": "DEMO Partners",
+          "fr": "Partenaires DEMO"
+        },
+        "module": "module.demo"
       },
       {
         "title": {
@@ -30,7 +33,7 @@
       }
     ]
   },
-  "default_module": "module.demo",
+  "default_module": "module.test_partners",
   "nunaliit_metadata": {
     "license": "",
     "creator": {
@@ -49,8 +52,7 @@
     "identifier": "",
     "inLanguage": [],
     "isAccessibleForFree": "",
-    "keywords": [
-    ],
+    "keywords": [],
     "temporalCoverage": "",
     "@type": "Dataset",
     "name": "",

@@ -1,0 +1,16 @@
+{
+	"nunaliit_schema": "test_partner",
+	"test_partner": {
+		"street_address": "",
+		"country": "",
+		"notes": "",
+		"province": "",
+		"city": "",
+		"name": "",
+		"weblink": "",
+		"id": "",
+		"region": "",
+		"postal_code": "",
+		"sector": ""
+	}
+}

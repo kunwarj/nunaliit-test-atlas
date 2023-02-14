@@ -1,0 +1,62 @@
+[
+	{
+		"select": "test_partner.id",
+		"label": "id",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.name",
+		"label": "name",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.region",
+		"label": "region",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.street_address",
+		"label": "street_address",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.city",
+		"label": "city",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.province",
+		"label": "province",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.postal_code",
+		"label": "postal_code",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.sector",
+		"label": "sector",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.country",
+		"label": "country",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.weblink",
+		"label": "weblink",
+		"type": "text"
+	},
+	{
+		"select": "test_partner.notes",
+		"label": "notes",
+		"type": "text"
+	},
+	{
+		"select": "nunaliit_geom.wkt",
+		"label": "nunaliit_geom",
+		"type": "text"
+	}
+]

@@ -1,0 +1,9 @@
+<span class="test_partner_brief">
+	<span class="n2s_localize test_partner_brief_decoration">Partner (</span>
+	{{#test_partner}}
+		{{#if name}}
+			<span class="test_partner_name">{{name}}</span>
+		{{/if}}
+	{{/test_partner}}
+	<span class="test_partner_brief_decoration">)</span>
+</span>

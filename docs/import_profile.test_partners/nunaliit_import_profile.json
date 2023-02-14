@@ -1,0 +1,17 @@
+{
+    "nunaliit_type": "import_profile",
+    "id": "test_partners",
+    "label": {
+        "nunaliit_type": "localized",
+        "en": "BEKH Partner"
+    },
+    "type": "geojson",
+    "options": {
+        "idAttribute": "id"
+    },
+    "operations": [
+        "copyAllAndFixNames(test_partner)"
+    ],
+    "schemaName": "test_partner",
+    "layerName": "test_partners"
+}
