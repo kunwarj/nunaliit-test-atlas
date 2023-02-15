@@ -13,5 +13,8 @@
         "copyAllAndFixNames(test_partner)"
     ],
     "schemaName": "test_partner",
-    "layerName": "test_partners"
+    "layerName": [
+        "test_partners",
+        "demo_tests"
+    ]
 }
